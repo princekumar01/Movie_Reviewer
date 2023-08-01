@@ -9,9 +9,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Routes>
-        <Route path='/*' element={<App />} />
+      <Routes>  
+      <Route path='/*' element={<App />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
 );
+//deprecated Api
+//managing routing
+//This component is a container for all the Route components and manages the navigation between them.
+     

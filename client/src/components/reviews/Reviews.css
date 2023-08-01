@@ -1,0 +1,18 @@
+.close{
+  text-align: center;
+  block-size:'1em';
+  position: absolute;
+  right:0;
+  border: 1px solid gold;
+  border-radius: 10px;
+  overflow: hidden;
+  }
+  .edit{
+    text-align: center;
+    block-size:'1em';
+    position: absolute;
+    right:8em;
+    border: 1px solid gold;
+    border-radius: 10px;
+    overflow: hidden;
+  }

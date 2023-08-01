@@ -1,0 +1,137 @@
+/* .movie-carousel-container {
+    width: 100vw;
+    background-color: black;
+} */
+
+/* .movie-poster {
+    height: 300px;
+    border: 1px solid gold;
+    border-radius: 10px;
+    overflow: hidden;
+} */
+
+.movie-poster1 {
+    height: 300px;
+    width: 250px;
+    border: 1px solid gold;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.movie-poster1 > img {
+    height:100%;
+    width: 100%;
+}
+
+/* .movie-card-container {
+    height: 550px;
+    background-color: black;
+} */
+
+/* .movie-card {
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1)), var(--img);
+} */
+
+/* .movie-detail {
+    position: absolute;
+    top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    float: right;
+} */
+
+.movie-detail1 {
+    position: absolute;
+    top: 350px;
+    /* left: 200px;  */
+    align-items: center;
+    display: flex; 
+     justify-content: space-evenly;
+     width: 100%;
+    float: right;
+}
+
+
+.movie-title1 {
+    color: white;
+    display: flex;
+    align-items: center;
+    bottom:0;
+}
+
+.movie-buttons-container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    bottom:0;
+}
+
+.play-button-icon-container1 {
+    padding: 0px;
+    margin: 0px;
+    width: 50px;
+    
+}
+
+.play-button-icon1 {
+    padding: 0px;
+    margin: 0px;
+    color: gold;
+    font-size: 3rem;
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+
+.play-button-icon1:hover {
+    font-style: 4rem;
+    color: white;
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .movie-detail1 {
+        flex-direction: column;
+        align-items: center;
+        top: 20px;
+    }
+}
+
+
+
+.dark{
+    background-color: gray;
+    color:white;
+}
+
+/* .container{
+    width:15em;
+    margin: 0 0.2em;
+    float: left;
+    position: relative;
+} */
+
+.container1{
+    width:15em;
+    margin: 0 0.5em;
+    float: left;
+    position: relative;
+    align-items: center;
+}
+
+
+  /* .close{
+    color: gold;
+    font-size: 3rem;
+    cursor: pointer;
+  } */
+  .edit{
+    position: absolute;
+    right:4em;
+  }
